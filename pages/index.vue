@@ -1,13 +1,20 @@
 <template>
-  <div class="dropdown">
-    <button id="dropdownMenuButton1" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-    </ul>
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div
+      class="card shadow-sm"
+      style="width: 20rem;"
+    >
+      <img
+        src="https://media.tenor.com/lwowvCpVB1cAAAAd/kiss-otter.gif"
+        alt="Otter boop"
+        class="card-img-top"
+      >
+      <div class="card-body">
+        <p class="card-text">
+          {{ 'Boop >w<' }}
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -16,9 +23,3 @@ export default {
   name: 'IndexPage'
 }
 </script>
-
-<style lang="scss" scoped>
-span {
-  background-color: red;
-}
-</style>

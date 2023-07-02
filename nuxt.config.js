@@ -40,6 +40,10 @@ export default {
     '@nuxtjs/stylelint-module'
   ],
 
+  router: {
+    middleware: 'checkAuthentication'
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
