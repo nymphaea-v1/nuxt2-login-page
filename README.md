@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1fb73b7-1758-44b1-ad9f-7a7db01efcad/deploy-status)](https://app.netlify.com/sites/nuxt2-login-for-otter-boops/deploys)
+
 # nuxt2-login-page
 
 ## Build Setup
