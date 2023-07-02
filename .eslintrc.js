@@ -9,11 +9,20 @@ module.exports = {
     requireConfigFile: false
   },
   extends: [
-    '@nuxtjs',
+    'standard',
+    'plugin:vue/vue3-recommended',
     'plugin:nuxt/recommended'
   ],
   plugins: [
   ],
-  // add your custom rules here
-  rules: {}
+  rules: {
+    'max-len': ['warn', {
+      code: 120,
+      comments: 120
+    }],
+    'vue/first-attribute-linebreak': ['error', {
+      singleline: 'beside',
+      multiline: 'below'
+    }]
+  }
 }
